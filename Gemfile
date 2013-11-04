@@ -42,6 +42,10 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
   gem 'capybara-rails'
+  gem 'guard-rspec'
+  gem 'spork-rails'
+  gem 'guard-spork'
+  gem 'childprocess'
 end
 
 # Use ActiveModel has_secure_password
